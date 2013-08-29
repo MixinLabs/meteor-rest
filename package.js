@@ -10,7 +10,6 @@ Package.on_use(function (api) {
     });
     
     api.use([
-        'routepolicy',
         'webapp',
         'underscore'
     ], 'server');
